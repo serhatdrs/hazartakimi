@@ -1,0 +1,13 @@
+{
+  "name": "hazartakimi-fronted",
+  "version": "1.0.0",
+  "description": "Hazar Takımı",
+  "author": "Mehmet Kalayci",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.3.3"
+  }
+}

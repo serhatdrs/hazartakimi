@@ -1,0 +1,11 @@
+#owl-carousel-video {
+    width: 100%;
+}
+
+.item-video {
+    height: 250px;
+    background-color: blue;
+    display: block;
+}
+
+

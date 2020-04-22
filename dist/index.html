@@ -8,19 +8,65 @@
     <script src="js/jquery.event.move.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>
     <script src="js/test.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.video.js"></script>
     <link rel="stylesheet" href="css/twentytwenty.css">
-    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/hazar.css">
+
     <link rel="stylesheet" href="css/twentytwenty-no-compass.css">
 </head>
-<body class="bg-gray-900">
-<div class="container">
-    <div class="">
-        <div id="container1" style="height: 318.6px;">
-            <img src="../dist/image/render1.png" />
-            <img src="../dist/image/render4.png" />
+<body class="bg-black">
+<header class=" absolute w-full z-50">
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+                <nav class="flex items-center justify-center justify-between">
+                    <a class="text-white font-bold text-2xl" href="index.html">Anasayfa</a>
+                    <a class="text-white font-bold text-2xl" href="ekip.html">Ekip</a>
+                    <a class="text-white font-bold text-2xl" href="">Basinda Biz</a>
+                    <a>
+                        <img class="w-40" src="../dist/image/logo-2x.png"/>
+                    </a>
+                    <a class="text-white font-bold text-2xl" href="projeler.html">Projeler</a>
+                    <a class="text-white font-bold text-2xl" href="sponsor.html">Sponsorlar</a>
+                    <a class="text-white font-bold text-2xl" href="">Iletisim</a>
+                </nav>
+            </div>
         </div>
     </div>
+</header>
+<div>
+    <div class="bg-white">
+        <div id="owl-carousel-video" class="owl-carousel owl-theme owl-center owl-loaded">
+            <div class="relative" style="width:100%;">
+                <div class="relative">
+                    <video autoplay="" loop="" muted="" poster="assets/img/upload/slide/slide-img-bg.jpg" id="background"
+                           style="width:100%;">
+                        <source src="../dist/image/video.mp4" type="video/mp4">
+                    </video>
+                    <div class="absolute top-0 left-0 mt-64 ml-32 z-10">
+                        <div>
+                            <span class="font-bold text-6xl text-white">Hiera</span>
+                            <span class="font-bold text-3xl text-white ml-2">3000</span>
+                        </div>
+                        <span class="font-bold text-white">Teknofest 2019 Yüksek İrtifa Roket Yarışması Birincisi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" z-50">
+        <div id="container1">
+            <img src="../dist/image/roket-1.png"/>
+            <img src="../dist/image/roket-2.png"/>
+        </div>
+    </div>
+
 </div>
+
+
 </body>
 </html>
 s
